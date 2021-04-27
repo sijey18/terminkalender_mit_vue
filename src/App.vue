@@ -3,6 +3,15 @@
 
     <CalendarWeek />
     <CalendarEntry />
+
+    <div class="container mt-3">
+      <div class="row">
+        <div class="col-6 offset-5">
+          <ButtonEmptyCalendar />
+        </div>
+      </div>
+    </div>
+    
     
       
    
@@ -13,11 +22,13 @@
 
 import CalendarWeek from './components/CalendarWeek';
 import CalendarEntry from './components/CalendarEntry';
+import ButtonEmptyCalendar from './components/ButtonEmptyCalendar';
 export default {
   name: 'App',
   components: {
     CalendarWeek,
-    CalendarEntry
+    CalendarEntry,
+    ButtonEmptyCalendar
   }
   
 }

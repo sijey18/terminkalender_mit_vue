@@ -37,6 +37,8 @@
                  class="btn bg-vue2 btn-block"
                  @click="storeEvent(eventTitle, eventColor)"
                  >Eintragen</button>
+            
+                 
               </div>
             </div>
           </div>
